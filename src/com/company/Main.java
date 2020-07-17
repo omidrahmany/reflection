@@ -34,7 +34,7 @@ public class Main {
 //        System.out.println(h);
 //        System.out.println(i);*/
 
-        Person person = new Student("Omid","kharazmi");
+        Person person = new Student("Omid", "kharazmi");
         String simpleName = person.getClass().getSimpleName();
         System.out.println(simpleName);
         String name = person.getClass().getName();
